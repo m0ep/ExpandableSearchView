@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Base.Widget.ExpandableSearchView.SearchBar" parent="">
+        <item name="search_bar_image_button_style">@style/Widget.ExpandableSearchView.ImageButton</item>
+    </style>
+
+    <style name="Widget.ExpandableSearchView.SearchBar" parent="Base.Widget.ExpandableSearchView.SearchBar">
+        <item name="android:background">@color/theme_dark_app_bar</item>
+        <item name="search_bar_back_icon">@drawable/ic_arrow_back_white_24dp</item>
+        <item name="search_bar_clear_icon">@drawable/ic_close_white_24dp</item>
+        <item name="search_bar_voice_input_icon">@drawable/ic_keyboard_voice_white_24dp</item>
+        <item name="search_bar_edit_text_style">@style/Widget.ExpandableSearchView.EditText</item>
+    </style>
+
+    <style name="Widget.ExpandableSearchView.Light.SearchBar" parent="Base.Widget.ExpandableSearchView.SearchBar">
+        <item name="android:background">@color/theme_light_app_bar</item>
+        <item name="search_bar_back_icon">@drawable/ic_arrow_back_black_24dp</item>
+        <item name="search_bar_clear_icon">@drawable/ic_close_black_24dp</item>
+        <item name="search_bar_voice_input_icon">@drawable/ic_keyboard_voice_black_24dp</item>
+        <item name="search_bar_edit_text_style">@style/Widget.ExpandableSearchView.Light.EditText</item>
+    </style>
+
+    <style name="Widget.ExpandableSearchView.DayNight.SearchBar" parent="Base.Widget.ExpandableSearchView.SearchBar">
+        <item name="android:background">@color/theme_day_night_app_bar</item>
+        <item name="search_bar_back_icon">@drawable/ic_arrow_back_24dp</item>
+        <item name="search_bar_clear_icon">@drawable/ic_close_24dp</item>
+        <item name="search_bar_voice_input_icon">@drawable/ic_keyboard_voice_24dp</item>
+        <item name="search_bar_edit_text_style">@style/Widget.ExpandableSearchView.DayNight.EditText</item>
+    </style>
+
+    <style name="Base.Widget.ExpandableSearchView.EditText" parent="Widget.AppCompat.EditText">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:maxLines">1</item>
+    </style>
+
+    <style name="Widget.ExpandableSearchView.EditText" parent="Base.Widget.ExpandableSearchView.EditText">
+        <item name="android:textColor">@color/text_light_normal</item>
+        <item name="android:textColorHint">@color/text_light_hint</item>
+    </style>
+
+    <style name="Widget.ExpandableSearchView.Light.EditText" parent="Base.Widget.ExpandableSearchView.EditText">
+        <item name="android:textColor">@color/text_dark_normal</item>
+        <item name="android:textColorHint">@color/text_dark_hint</item>
+    </style>
+
+    <style name="Widget.ExpandableSearchView.DayNight.EditText" parent="Base.Widget.ExpandableSearchView.EditText">
+        <item name="android:textColor">@color/text_day_night_normal</item>
+        <item name="android:textColorHint">@color/text_day_night_hint</item>
+    </style>
+
+    <style name="Widget.ExpandableSearchView.ImageButton" parent="Widget.AppCompat.Button.Borderless">
+        <item name="android:scaleType">centerInside</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+</resources>

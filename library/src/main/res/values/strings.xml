@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ExpandableSearchView</string>
+    <string name="desc_search_bar_back_arrow_icon">Close search bar</string>
+    <string name="desc_search_bar_clear_icon">Clear search query</string>
+    <string name="desc_search_bar_voice_input_icon">Open voice input</string>
+    <string name="hint_search_bar_query">Enter your search here…</string>
+</resources>

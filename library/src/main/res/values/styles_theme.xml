@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.ExpandableSearchView" parent="Theme.AppCompat">
+        <item name="searchBarStyle">@style/Widget.ExpandableSearchView.SearchBar</item>
+    </style>
+
+    <style name="Theme.ExpandableSearchView.Light" parent="Theme.AppCompat.Light">
+        <item name="searchBarStyle">@style/Widget.ExpandableSearchView.Light.SearchBar</item>
+    </style>
+
+    <style name="Theme.ExpandableSearchView.Light.DarkActionBar" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="searchBarStyle">@style/Widget.ExpandableSearchView.Light.SearchBar</item>
+    </style>
+
+    <style name="Theme.ExpandableSearchView.DayNight" parent="Theme.AppCompat.DayNight">
+        <item name="searchBarStyle">@style/Widget.ExpandableSearchView.Light.SearchBar</item>
+    </style>
+
+    <style name="Theme.ExpandableSearchView.DayNight.DarkActionBar" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <item name="searchBarStyle">@style/Widget.ExpandableSearchView.Light.SearchBar</item>
+    </style>
+
+</resources>

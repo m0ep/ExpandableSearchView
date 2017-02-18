@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="search_bar">
+        <attr name="android:background"/>
+        <attr name="search_bar_back_icon" format="reference"/>
+        <attr name="search_bar_clear_icon" format="reference"/>
+        <attr name="search_bar_voice_input_icon" format="reference"/>
+        <attr name="search_bar_edit_text_style" format="reference"/>
+        <attr name="search_bar_image_button_style" format="reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="search_bar_theme">
+        <attr name="searchBarStyle" format="reference"/>
+    </declare-styleable>
+</resources>
